@@ -1,0 +1,16 @@
+{
+  "name": "ai-workflow-assistant",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "npm -ws run build",
+    "lint": "echo 'add a linter later'",
+    "test": "echo 'add tests later'"
+  }
+}
